@@ -1,4 +1,4 @@
-package com.akarmanov.designpatterns;
+package com.akarmanov;
 
 public class Main {
   public static void main(String[] args) {
