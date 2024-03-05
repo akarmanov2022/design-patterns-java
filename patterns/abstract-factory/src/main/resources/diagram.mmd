@@ -1,0 +1,40 @@
+classDiagram
+    direction RL
+    class Client
+    class Window
+    class ScrollBar
+
+    class WidgetFactory {
+        CreateScrollBar()*
+        CreateWindow()*
+    }
+
+    class PMWidgetFactory {
+        CreateScrollBar()
+        CreateWindow()
+    }
+    class MotifWidgetFactory {
+        CreateScrollBar()
+        CreateWindow()
+    }
+    class MotifWindow
+    class MotifScrollBar
+    class PMWindow
+    class PMScrollBar
+
+    Window <-- Client
+    Window <|-- PMWindow
+    Window <|-- MotifWindow
+    WidgetFactory <-- Client
+    WidgetFactory <|-- MotifWidgetFactory
+    WidgetFactory <|-- PMWidgetFactory
+    ScrollBar <-- Client
+    ScrollBar <|-- PMScrollBar
+    ScrollBar <|-- MotifScrollBar
+
+
+    PMScrollBar <.. PMWidgetFactory
+    PMWindow <.. PMWidgetFactory
+
+    MotifScrollBar <.. MotifWidgetFactory
+    MotifWindow <.. MotifWidgetFactory
