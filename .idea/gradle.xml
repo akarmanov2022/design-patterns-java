@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/patterns" />
             <option value="$PROJECT_DIR$/patterns/abstract-factory" />
+            <option value="$PROJECT_DIR$/patterns/builder" />
           </set>
         </option>
       </GradleProjectSettings>

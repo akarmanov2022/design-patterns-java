@@ -1,4 +1,6 @@
 rootProject.name = 'design-patterns-java'
 include 'patterns:abstract-factory'
 findProject(':patterns:abstract-factory')?.name = 'abstract-factory'
+include 'patterns:builder'
+findProject(':patterns:builder')?.name = 'builder'
 

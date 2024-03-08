@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0344283d-9cc3-4a46-9857-429aed2bbf45" name="Changes" comment="create uml-diagram">
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ConcreteFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/com/akarmanov/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +18,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +86,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "abstract-factory",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
