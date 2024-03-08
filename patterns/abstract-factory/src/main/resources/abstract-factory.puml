@@ -1,0 +1,40 @@
+@startuml
+class Client
+interface ProductA
+interface ProductB
+
+interface AbstractFactory {
+  +createProductA()
+  +createProductB()
+}
+
+AbstractFactory <.r.. Client : <<import>>
+ProductA <.up.. Client : <<import>>
+ProductB <.u.. Client : <<import>>
+
+class ProductA1 implements ProductA {}
+
+class ProductA2 implements ProductA {}
+
+class ProductB1 implements ProductB {}
+
+class ProductB2 implements ProductB {}
+
+class ConcreteFactory1 implements AbstractFactory {
+  +createProductA()
+  +createProductB()
+}
+
+class ConcreteFactory2 implements AbstractFactory {
+  +createProductA()
+  +createProductB()
+}
+
+ProductA1 <.. ConcreteFactory1
+ProductB1 <.. ConcreteFactory1
+
+ProductA2 <.. ConcreteFactory2
+ProductB2 <.. ConcreteFactory2
+
+
+@enduml
