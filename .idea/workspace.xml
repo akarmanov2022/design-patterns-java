@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0344283d-9cc3-4a46-9857-429aed2bbf45" name="Changes" comment="create uml-diagram">
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ConcreteFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/design/patterns/abstractfactory/ProductB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/abstract-factory/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/abstract-factory/src/main/java/com/akarmanov/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +17,34 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-patterns-java" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-patterns-java" type="f1a62948:ProjectNode" />
+                <item name="patterns" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="design-patterns-java" type="f1a62948:ProjectNode" />
+                <item name="patterns" type="2d1252cf:ModuleNode" />
+                <item name="builder" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="builder" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +101,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "abstract-factory",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "temurin-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -92,7 +109,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -123,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -186,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709871508625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1709913921682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709913921682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,9 +230,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="create uml-diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="create uml-diagram" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
