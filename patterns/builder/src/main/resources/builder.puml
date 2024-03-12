@@ -1,0 +1,26 @@
+@startuml
+class Product
+
+class Director {
+  construct()
+}
+
+note left of Director::construct
+  Для всех объектов в структуре {
+    builder.buildPart()
+  }
+end note
+
+class Builder {
+  buildPart()
+}
+
+Director *-r-> Builder : builder
+
+class ConcreteBuilder extends Builder {
+  buildPart()
+  getResult()
+}
+
+ConcreteBuilder .r.> Product
+@enduml
