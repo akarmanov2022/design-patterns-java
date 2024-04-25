@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0344283d-9cc3-4a46-9857-429aed2bbf45" name="Changes" comment="Reformat code">
-      <change afterPath="$PROJECT_DIR$/patterns/builder/src/main/resources/builder.puml" afterDir="false" />
+    <list default="true" id="0344283d-9cc3-4a46-9857-429aed2bbf45" name="Changes" comment="added uml-diagram">
+      <change afterPath="$PROJECT_DIR$/patterns/builder/src/main/java/design/patterns/builder/products/AbstractProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/builder/src/main/java/design/patterns/builder/products/ConcreteProduct1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/builder/src/main/java/design/patterns/builder/products/ConcreteProduct2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/builder/src/main/java/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/builder/src/main/java/design/patterns/builder/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +54,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="UML Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,14 +74,12 @@
     &quot;assignee&quot;: &quot;akarmanov2022&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="3d67aef1-9a1e-42cb-a0e0-4f5aaeeaddd1" />
-        <option name="url" value="https://github.com/akarmanov2022/design-patterns-java.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/akarmanov2022/design-patterns-java.git&quot;,
+    &quot;accountId&quot;: &quot;3d67aef1-9a1e-42cb-a0e0-4f5aaeeaddd1&quot;
+  }
+}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
@@ -94,37 +95,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
-    &quot;Gradle.design-patterns-java:patterns:abstract-factory [:patterns:abstract-factory:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;builder&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "Gradle.design-patterns-java:patterns:abstract-factory [:patterns:abstract-factory:Main.main()].executor": "Run",
+    "Gradle.design-patterns-java:patterns:builder [:patterns:builder:Main.main()].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "builder",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="design.patterns.builder.products" />
+      <recent name="design.patterns" />
       <recent name="com.akarmanov" />
       <recent name="com.akarmanov.designpatterns.generating.abstractfactory.models" />
       <recent name="com.akarmanov.designpatterns" />
-      <recent name="com.akarmanov.designpatterns.generating.abstractfactory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.design.patterns.builder.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.akarmanov.Main" />
       <module name="design-patterns-java.patterns.abstract-factory.main" />
@@ -138,8 +144,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="design.patterns.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.patterns.builder.Main" />
+      <module name="design-patterns-java.patterns.builder.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.patterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.design.patterns.builder.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -147,7 +167,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -173,7 +194,10 @@
       <workItem from="1709916384191" duration="9000" />
       <workItem from="1710133332181" duration="33000" />
       <workItem from="1710253766522" duration="48000" />
-      <workItem from="1710253820345" duration="1425000" />
+      <workItem from="1710253820345" duration="2087000" />
+      <workItem from="1710306210930" duration="3000" />
+      <workItem from="1714058028079" duration="329000" />
+      <workItem from="1714058366823" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -207,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709871508625</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added uml-diagram">
+      <option name="closed" value="true" />
+      <created>1710255279566</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710255279566</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +260,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="create uml-diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="create uml-diagram" />
+    <MESSAGE value="added uml-diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="added uml-diagram" />
   </component>
 </project>
